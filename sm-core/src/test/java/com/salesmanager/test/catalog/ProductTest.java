@@ -8,6 +8,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import com.salesmanager.core.business.exception.ServiceException;
 import com.salesmanager.core.model.catalog.category.Category;
@@ -46,8 +47,10 @@ public class ProductTest extends com.salesmanager.test.common.AbstractSalesManag
 
 	/**
 	 * This method creates multiple products using multiple catalog APIs
+	 * Ignored: Requires CMS file storage configuration
 	 * @throws ServiceException
 	 */
+	@Ignore
 	@Test
 	public void testCreateProduct() throws Exception {
 
